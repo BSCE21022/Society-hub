@@ -1,0 +1,124 @@
+* {
+    font-family: Poppins;
+}
+body {
+    background-color: #113946;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+form {
+    background-color: #d7ceb2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: poppins;
+    transform: translate(-50%, -50%);
+    border: 1px solid #9c9c9c;
+    border-radius: 10px;
+    width: 650px;
+    padding: 25px;
+}
+
+input {
+    outline: none;
+    font-family: poppins;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    height: 35px;
+    font-size: 15px;
+    width: 290px;
+    text-transform: uppercase;
+}
+
+input:focus {
+    border: 1.5px solid #113946;
+}
+
+.name {
+    display: inline-block;
+}
+
+input[type="name"], input[type="text"] {
+    display: block;
+    margin: 30px 0 0 10px;
+    padding-right: 5px;
+}
+
+label {
+    position: relative;
+    font-family: poppins;
+    color: #555;
+    font-size: 15px;
+    pointer-events: none;
+    left: 20px;
+    top: -28px;
+    transition: 0.2s all;
+    text-transform: uppercase;
+}
+
+input:focus ~label, input:valid ~label {
+    top: -49px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #535878;
+    text-transform: uppercase;
+}
+
+.line1 {
+    font-size: 15px;
+    margin: -30px 0 0 15px;
+    color: #555;
+}
+
+input.wide-input {
+    width: 610px; 
+}
+
+input[type="checkbox"] {
+    width: 15px; 
+    height: 15px; 
+  }
+.name label[for="gender"] {
+    color: #333;
+}
+.name input[type="text"],
+.name input[type="password"] {
+    display: block;
+    margin: 10px 0 0 10px; 
+    padding-right: 5px;
+}
+
+.name input[type="text"]
+{    display: block;
+    margin: 15px 0 0 12px;
+    padding-right: 5px;
+}
+
+.name label[for="resident"] {
+    color: #333;
+}
+select.wide-input {
+    outline: none;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 38px;
+    font-size: 15px;
+    width: 380px;
+    text-transform: uppercase;
+}
+
+select.wide-input:focus {
+    border: 1.5px solid #113946;
+}
+
+
+  
